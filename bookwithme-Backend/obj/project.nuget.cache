@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "k4OhRRAG3OlGaEmHcbgNCU0jC8O2ge1+FUtNWZSqQdSNILKUA7KdcrUGNnfTInfd8WfDmjf1Ip4pAuRVkYhaNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maazarif\\Documents\\bookwithme-hackathon\\bookwithme-Backend\\bookwithme-Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maazarif\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\maazarif\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\maazarif\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\maazarif\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\maazarif\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\maazarif\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

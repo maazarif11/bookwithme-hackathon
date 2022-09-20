@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aldz0UTGDHWb32jSxKeVxB6fmVTZNbKCjw6YDqiMwBc=",
+  "Source": "bookwithme-Backend",
+  "BasePath": "_content/bookwithme-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

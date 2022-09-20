@@ -1,0 +1,2 @@
+C:\Users\maazarif\Documents\bookwithme-hackathon\bookwithme\obj\Debug\bookwithme.esproj.SuggestedBindingRedirects.cache
+C:\Users\maazarif\Documents\bookwithme-hackathon\bookwithme\obj\Debug\bookwithme.esproj.CoreCompileInputs.cache
