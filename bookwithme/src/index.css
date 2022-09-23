@@ -20,6 +20,10 @@ body {
     padding: 0;
 }
 
+.logo {
+    padding: 16px;
+}
+
 
 .center {
     margin: 0;
