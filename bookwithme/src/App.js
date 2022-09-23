@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import LoginPage from './views/LoginPage';
+import ProfilePage from './views/ProfilePage';
+import DashboardPage from './views/DashboardPage';
+import NoPage from './views/NoPage';
+import SignUpPage from './views/SignUpPage';
+import MonetizePage from './views/MonetizePage'
 
 export default class App extends Component {
     static displayName = App.name;
@@ -38,21 +46,23 @@ export default class App extends Component {
     }
 
     render() {
-        let contents = this.state.loading
-            ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-            : App.renderForecastsTable(this.state.forecasts);
-
         return (
-            <div>
-                <h1 id="tabelLabel" >Weather forecast</h1>
-                <p>This component demonstrates fetching data from the server.</p>
-                {contents}
-            </div>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<LoginPage />} />
+                    <Route path="/login" element={<LoginPage />} />
+                    <Route path="/signup" element={<SignUpPage />} />
+                    <Route path="/links" element={<DashboardPage />} />
+                    <Route path="/profile" element={<ProfilePage />} />
+                    <Route path="/monetize" element={<MonetizePage/>} />
+                    <Route path="*" element={<NoPage />} />
+                </Routes>
+            </BrowserRouter>
         );
     }
 
     async populateWeatherData() {
-        const response = await fetch('weatherforecast');
+        const response = await fetch('/api/weatherforecast');
         const data = await response.json();
         this.setState({ forecasts: data, loading: false });
     }
